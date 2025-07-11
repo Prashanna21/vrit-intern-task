@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import SectionOne from './pages/SectionOne'
 import TaskTwo from './pages/TaskTwo'
@@ -9,8 +8,8 @@ function App() {
   return (
     <>
       <div className=''>
-        {/* <SectionOne /> */}
-        {/* <TaskTwo /> */}
+      <SectionOne />
+       <TaskTwo />
         <TaskLast/>
       </div>
     </>

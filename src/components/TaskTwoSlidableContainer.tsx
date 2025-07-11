@@ -5,10 +5,8 @@ import type {  TaskTwoSliderContainerProps } from '../types/types';
 
 
 const TaskTwoSlidableContainer = ({
-    className,
     children,
     bgImg,
-    inside,
     onNext,
     onPrev
 }: TaskTwoSliderContainerProps) => {
