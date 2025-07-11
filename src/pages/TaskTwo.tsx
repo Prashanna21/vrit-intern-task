@@ -10,8 +10,8 @@ import TaskTwoImage4 from "../assets/images/Group-2.png"
 import subtractMint from "../assets/images/SubtractMint.png"
 import subtractRed from "../assets/images/SubtractRed.png"
 
-import task2Img1 from "../assets/images/task2Img1.png"
-import task2Img2 from "../assets/images/task2Img2.png"
+import task2Img1 from "../assets/images/Task2Img1.png"
+import task2Img2 from "../assets/images/Task2Img2.png"
 import task2Img3 from "../assets/images/Task2Img3.png"
 
 
