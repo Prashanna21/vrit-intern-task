@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import type { TaskTwoContainerProps } from '../types/types';
 import TaskTwoSlidableContainer from '../components/TaskTwoSlidableContainer';

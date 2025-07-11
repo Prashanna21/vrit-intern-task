@@ -1,4 +1,3 @@
-import React from 'react'
 import TaskTwoContainer from '../components/TaskTwoContainer'
 import type { TaskTwoContainerProps } from '../types/types';
 

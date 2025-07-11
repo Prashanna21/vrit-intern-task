@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react";
+import {useState, useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 

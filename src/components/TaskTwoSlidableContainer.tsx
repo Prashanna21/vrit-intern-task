@@ -1,5 +1,3 @@
-import React from 'react';
-import { motion } from "framer-motion"
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
  
