@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@import "./styles/font.css";
+
+
+
+
+#root {
+
+  
+}
+
+.font-secondary-h1 {
+    font-family: "Nohemi", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+
+@theme{
+    --font-secondary: 'Nohemi';
+    --color-primary: #1DA077;
+    --text-custom-h1: 32px;
+
+    --font-primary: 'Outfit', sans-serif;
+
+    --color-black-900: #414141; 
+    --color-base-black: #2B2B2B;
+
+}
