@@ -11,6 +11,10 @@
   
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .font-secondary-h1 {
     font-family: "Nohemi", sans-serif;
     font-size: 32px;

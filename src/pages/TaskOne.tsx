@@ -1,5 +1,4 @@
 import {useState, useEffect } from "react";
-import { FaArrowRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 import TImage from "../components/TImage";
@@ -19,6 +18,7 @@ import trophyGif from '../assets/gifs/trophy.gif';
 
 
 import TestinomialVid from "../assets/videos/VideoTestonomial.mp4";
+import ViewAllAnimated from "../components/ViewAllAnimated";
 
 
 
@@ -46,17 +46,17 @@ function SectionOne() {
             
         {/* Main Wrapper */}
             <div 
-                className="relative" 
-                >
+                className="relative" >
                
                 {/* Text Part */}
                <div className="text-center flex flex-col gap-4 text-black-900">
-                <p className="font-primary text-2xl text-base-black">Hear How They Level Up Their Game!</p>
-                <h1 className="font-secondary text-custom-h1 font-bold" >Skill <span className="text-primary">Masters</span> Unite! 🤝</h1>
-                <button className="border-none font-semibold text-base-black flex justify-center items-center font-primary text-lg">View all Testinomials  <FaArrowRight size={16} /></button>
+                    <p className="font-primary text-2xl text-base-black">Hear How They Level Up Their Game!</p>
+                    <h1 className="font-secondary text-custom-h1 font-bold" >Skill <span className="text-primary">Masters</span> Unite! 🤝</h1>
+                    <ViewAllAnimated text="View all Testinomials" textColor="text-base-black" />
+
                </div>
 
-                {/* Opposite box grouped grid up and down */}
+            {/* Opposite box grouped grid up and down */}
 
                 {/* Top and bottom left */}
                <TImage
@@ -259,7 +259,6 @@ function SectionOne() {
                 />
 
             </div>
-
 
             </div>        
 

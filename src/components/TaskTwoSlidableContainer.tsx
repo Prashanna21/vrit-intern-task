@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
  
-import type {  TaskTwoSliderContainerProps } from '../types/types';
+import type {  TTaskTwoSliderContainerProps } from '../types/types';
 
 
 const TaskTwoSlidableContainer = ({
@@ -9,7 +9,7 @@ const TaskTwoSlidableContainer = ({
     bgImg,
     onNext,
     onPrev
-}: TaskTwoSliderContainerProps) => {
+}: TTaskTwoSliderContainerProps) => {
 
     
 

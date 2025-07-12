@@ -11,31 +11,43 @@ export type TImageProps = {
   hoverEffect?: boolean;
 };
 
-export type ToolTipProps = {
+export type TToolTipProps = {
   children: React.ReactNode;
   className?: string;
   position?: 'top' | 'bottom' | 'left' | 'right';
   delay?: number;
 };
 
-export type TaskTwoContainerProps = {
+export type TTaskTwoContainerProps = {
   imgSrc : string;
   className? : string;
   title: string;
   secondTitle : string;
   content : string;
-  imagePos? : 'right' | 'left';
+  imagePos? : string;
   bgColor? : string;
   inside? : any;
   customImgPostion? : string,
   customTextWidth? : string
 }
 
-export type TaskTwoSliderContainerProps = {
+export type TTaskTwoSliderContainerProps = {
   className? : string
   children : React.ReactNode;
   bgImg? : string;
   inside?: any,
   onPrev: () => void;
   onNext: () => void;
+}
+
+export type TTContainerOpenProps = {
+  title : string,
+  secondtitle: string,
+  content: string,
+  open: boolean,
+}
+
+export type TTViewAllAnimatedProps = {
+  text: string,
+  textColor: string,
 }

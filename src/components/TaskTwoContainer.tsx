@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import type { TaskTwoContainerProps } from '../types/types';
+import type { TTaskTwoContainerProps } from '../types/types';
 import TaskTwoSlidableContainer from '../components/TaskTwoSlidableContainer';
 
 const TaskTwoContainer = ({
@@ -14,7 +14,7 @@ const TaskTwoContainer = ({
   inside,
   customImgPostion,
   customTextWidth,
-}: TaskTwoContainerProps) => {
+}: TTaskTwoContainerProps) => {
   const [hovered, setHovered] = useState(false);
   const [hidden, setHidden] = useState(false);
 
