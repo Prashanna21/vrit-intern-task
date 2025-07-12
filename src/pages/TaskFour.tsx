@@ -18,11 +18,14 @@ function TaskLast() {
     const intervalFun = setInterval(() => {
       const newGrid = [];
 
+      
+      //For generating rows and cols
       for (let i = 0; i < numberOfRows; i++) {
         const row  = [];
         const randomCol = getRandomNumber();
 
         for (let j = 0; j < numberOfCols; j++) {
+            //For targeting or selecting random row and cols
             let isTargetCell = false;
 
             if(randomCol === j) isTargetCell = true;

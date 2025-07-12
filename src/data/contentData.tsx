@@ -15,9 +15,9 @@ import task2Img3 from '../assets/images/Task2Img3.png';
 
 import MyImage from '../assets/images/Prashanna.png';
 
-import LinkedInLogo from '../assets/images/LinkedIn.png';
-import GitHubLogo from '../assets/images/GitHub.png';
-import CvLogo from '../assets/images/CV.png';
+import LinkedInLogo from '../assets/images/LinkedIn.webp';
+import GitHubLogo from '../assets/images/GitHub.webp';
+import CvLogo from '../assets/images/CV.webp';
 
 
 
