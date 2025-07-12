@@ -97,7 +97,7 @@ export const contentData: TTaskTwoContainerProps[] = [
 
     ]
 
-    export const personalData: TaskTwoContainerProps[] = [
+    export const personalData: TTaskTwoContainerProps[] = [
   {
     bgColor: '#F45B5B',
     customImgPostion: 'bottom-1 -left-40',
