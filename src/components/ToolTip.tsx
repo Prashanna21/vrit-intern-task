@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import type { ToolTipProps } from '../types/types';
+import type { TToolTipProps } from '../types/types';
 import { RiTriangleFill } from "react-icons/ri";
 
 const ToolTip = ({
@@ -7,7 +7,7 @@ const ToolTip = ({
   className = '',
   position = 'top',
   delay = 0,
-}: ToolTipProps) => {
+}: TToolTipProps) => {
 
 
   const positionClass =
