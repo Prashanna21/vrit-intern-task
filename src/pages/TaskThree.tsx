@@ -32,7 +32,7 @@ function TaskThree() {
           setBoxTwoOpen(true);
           setBoxThreeOpen(false);
         }}>
-          <TaskThreeContainerOpen open= {boxTwoOpen} title='23' secondtitle='All Courses' content="courses you're powering through right now" />
+          <TaskThreeContainerOpen open= {boxTwoOpen} title='5' secondtitle='Ongoing Courses' content="courses you're powering through right now" />
         </div>
 
 
@@ -41,7 +41,7 @@ function TaskThree() {
           setBoxTwoOpen(false);
           setBoxThreeOpen(true);
         }}>
-          <TaskThreeContainerOpen open= {boxThreeOpen} title='23' secondtitle='All Courses' content="courses you're powering through right now" />
+          <TaskThreeContainerOpen open= {boxThreeOpen} title='10' secondtitle='All Courses' content="courses you're powering through right now" />
         </div>
       </div>
       
