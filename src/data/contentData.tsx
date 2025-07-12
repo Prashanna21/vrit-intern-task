@@ -1,4 +1,4 @@
-import type { TaskTwoContainerProps } from '../types/types';
+import type { TTaskTwoContainerProps } from '../types/types';
 
 import TaskTwoImg1 from '../assets/images/TaskTwoImg1.png';
 import TaskTwoImage2 from '../assets/images/Group.png';
@@ -21,7 +21,7 @@ import CvLogo from '../assets/images/CV.png';
 
 
 
-export const contentData: TaskTwoContainerProps[] = [
+export const contentData: TTaskTwoContainerProps[] = [
 { 
         imgSrc: TaskTwoImg1,
         title: 'Start with Clarity',
